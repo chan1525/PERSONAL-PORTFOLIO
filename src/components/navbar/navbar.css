@@ -1,0 +1,68 @@
+*{
+    color:white;
+}
+img{
+    object-fit:cover;
+
+    height: 3rem;
+    width: 4rem;
+}
+.navbar{
+    background-color: rgb(30, 30, 30);
+    height:5rem;
+    max-width: 75rem;
+    width: 100vw;
+    margin:  0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+
+}
+.desktopMenuListItem
+{
+    margin:1rem;
+    cursor: pointer;
+
+}
+.desktopMenuBtn
+{
+    background: white;
+    color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    
+
+    
+}
+
+.desktopMenuListItem:hover{
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid yellow;
+    transform-origin: center;
+
+}
+
+
+/* .desktopMenuImg{
+    object-fit: cover;
+    height: 1rem;
+    width:1rem;
+    margin:1rem;
+
+} */
+
+#contact
+{
+    color: black;
+    font-weight: bold;
+}
